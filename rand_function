@@ -1,0 +1,4 @@
+# rand function
+import numpy as np
+arr=np.random.rand(5)   #used to generate 5 number between 0 and 1
+print(arr)

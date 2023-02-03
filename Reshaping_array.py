@@ -1,0 +1,10 @@
+# Reshaping of array
+my_array=np.random.randint(1,100,12)
+print(my_array)
+print(my_array.shape)
+reshape1=my_array.reshape(3,4)
+reshape2=my_array.reshape(6,2)
+print(reshape1)
+print(reshape2)
+reshape3=my_array.reshape(12)
+print(reshape3)
